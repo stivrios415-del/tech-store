@@ -14,7 +14,7 @@ function App() {
     { id: 4, name: 'victoria secret cosmic wish', price: 8, category: 'splash', image: '/rorr.jpg', description: 'splash con un olor super riquisimo ', rating: 4.6, stock: 20 },
     { id: 5, name: 'victoria secret temptation', price: 6, category: 'splash', image: '/ddddw.jpg', description: 'Frescura total con este splash', rating: 4.5, stock: 35 },
     { id: 6, name: 'victoria secret agua kiss', price: 9, category: 'splash', image: '/agguaa.jpg', description: 'un olor lleno de frescura total', rating: 4.9, stock: 10 },
-    { id: 7, name: 'Bath and Body Works Bourbon + spray de hombre', price:9, category:'cremas', image: '/cree.jpg', description:'Crema con un olor muy masculino',reating: 4.9,stock:11},
+    { id: 7, name: 'body cream', price:9, category:'cremas', image: '/cree.jpg', description:'Crema con un olor muy masculino',reating: 4.9,stock:11},
   ]);
 
   const [cart, setCart] = useState([]);

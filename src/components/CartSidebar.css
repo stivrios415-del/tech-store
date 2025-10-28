@@ -185,3 +185,17 @@
   background: #00e57f;
   box-shadow: 0 0 12px #00ff8844;
 }
+@media (max-width: 480px) {
+  .cart-header,
+  .cart-content {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .cart-title {
+    font-size: 1.1rem;
+  }
+  .item-image {
+    width: 48px;
+    height: 48px;
+  }
+}
