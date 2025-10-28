@@ -22,7 +22,7 @@ const SearchBar = ({ searchTerm, onSearchChange, selectedCategory, onCategoryCha
     className="search-select"
   >
     <option value="all">Todas los productos</option>
-    <option value="splash">splash </option>
+    <option value="splash">Splash </option>
     <option value="cremas">Cremas</option>
   </select>
 </div>
