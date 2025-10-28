@@ -1,0 +1,58 @@
+/* Precio estilo premium */
+.product-price {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #00ff88;
+  letter-spacing: .05em;
+  margin: .5rem 0 1rem;
+}
+
+/* Botón tipo “Basics” */
+.btn-add {
+  width: 100%;
+  background: transparent;
+  border: 1px solid #00ff88;
+  color: #00ff88;
+  padding: .8rem;
+  border-radius: 25px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  cursor: pointer;
+  transition: all .3s ease;
+}
+
+.btn-add:hover {
+  background: #00ff88;
+  color: #0d0d0d;
+  box-shadow: 0 0 12px #00ff8844;
+}
+
+.btn-add {
+  width: 100%;
+  background: transparent;
+  border: 1px solid #00ff88;
+  color: #00ff88;
+  padding: .8rem 1rem;
+  border-radius: 25px;
+  font-family: 'Inter', sans-serif;
+  font-size: .8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  cursor: pointer;
+  transition: all .3s ease;
+}
+
+.btn-add:hover {
+  background: #00ff88;
+  color: #0d0d0d;
+  box-shadow: 0 0 15px #00ff8866;
+}
+.product-image {
+  width: 250%;
+  max-width: 500px;   /* ajusta este valor al que prefieras */
+  height: auto;
+  object-fit: contain;
+  border-radius: 6px; /* opcional: esquinas redondeadas */
+}
