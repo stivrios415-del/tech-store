@@ -184,8 +184,15 @@
 .checkout-btn:hover {
   background: #00e57f;
   box-shadow: 0 0 12px #00ff8844;
+
+
 }
-@media (max-width: 480px) {
+/* iPhone 12 mini y móviles estrechos */
+@media (max-width: 400px) {
+  .cart-sidebar {
+    width: 90vw;
+    right: -90vw;
+  }
   .cart-header,
   .cart-content {
     padding-left: 1rem;
