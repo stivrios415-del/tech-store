@@ -17,8 +17,6 @@ const Header = ({ cartItemsCount, onCartClick }) => {
 
       <nav className="nav-links">
         <a href="#inicio" className="nav-link">Inicio</a>
-        <a href="#productos" className="nav-link">Productos</a>
-        <a href="#ofertas" className="nav-link">Ofertas</a>
       </nav>
     </header>
   );
