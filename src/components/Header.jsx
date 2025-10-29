@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import logo from '../logoqq.svg';
+import logo from '../logo.svg';
 
 const Header = ({ cartItemsCount, onCartClick }) => {
   return (
@@ -8,7 +8,6 @@ const Header = ({ cartItemsCount, onCartClick }) => {
       <div className="header-top">
         <div className="logo">
           <img src={logo} alt="Logo" className="logo-img" />
-          <span>La tienda de tus sueños</span>
         </div>
 
         <button onClick={onCartClick} className="cart-btn-mobile">
