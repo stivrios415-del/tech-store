@@ -1,7 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg"
-     width="200" height="40" viewBox="0 0 200 40">
-  <text x="0" y="30" font-family="Inter, sans-serif"
-        font-size="28" font-weight="700" fill="#ffffff">
+     width="260" height="40" viewBox="0 0 260 40"
+     fill="none">
+
+  <!-- Icono carrito minimalista -->
+  <path d="M6 12h4l3 12h14l3-10H12l-1-4H4v-2h6zM18 28a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm12 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0z"
+        fill="#ffffff"/>
+
+  <!-- Texto INVESTMENTS -->
+  <text x="46" y="28" font-family="Inter, sans-serif"
+        font-size="24" font-weight="700" fill="#ffffff">
     INVESTMENTS
   </text>
 </svg>
