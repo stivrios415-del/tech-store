@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import logo from './logo.svg';
+import logo from '../logoqq.svg';
 
 const Header = ({ cartItemsCount, onCartClick }) => {
   return (
