@@ -7,8 +7,8 @@ const Header = ({ cartItemsCount, onCartClick }) => {
     <header className="header">
       <div className="header-top">
         <div className="logo">
-          <h1>🛍️ Investments</h1>
-          <span>Tu tienda</span>
+          <img src={logo} alt="Logo" className="logo-img" />
+          <span>La tienda de tus sueños</span>
         </div>
 
         <button onClick={onCartClick} className="cart-btn-mobile">
