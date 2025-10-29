@@ -1,5 +1,6 @@
 import React from 'react';
 import './Header.css';
+import logo from '../logoqq.svg';
 
 const Header = ({ cartItemsCount, onCartClick }) => {
   return (
@@ -17,6 +18,8 @@ const Header = ({ cartItemsCount, onCartClick }) => {
 
       <nav className="nav-links">
         <a href="#inicio" className="nav-link">Inicio</a>
+        <a href="#productos" className="nav-link">Productos</a>
+        <a href="#ofertas" className="nav-link">Ofertas</a>
       </nav>
     </header>
   );
