@@ -1,14 +1,18 @@
 import React from 'react';
 import './ProductCard.css';
 
-const imageMap = {
-  1: '/vainilla.jpg',  //splash
-  2: '/pure.jpg', // splash2 
-  3: '/coconut.jpg', 
-  4: '/rorr.jpg', 
-  5: '/ddddw.jpg', 
-  6: '/agguaa.jpg', 
+ const imageMap = {
+  1: '/vainilla.jpg',
+  2: '/pure.jpg',
+  3: '/coconut.jpg',
+  4: '/rorr.jpg',
+  5: '/ddddw.jpg',
+  6: '/agguaa.jpg',
   7: '/cree.jpg',
+  8: '/bubur.jpg',
+  9: '/ocenai.jpg',
+  10: '/bpdu.jpg',
+  11: '/nunu.jpg',
 };
 
 const ProductCard = ({ product, onAddToCart }) => {

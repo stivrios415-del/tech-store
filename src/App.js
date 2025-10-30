@@ -7,15 +7,19 @@ import CheckoutModal from './components/CheckoutModal';
 import './App.css';
 
 function App() {
-  const [products] = useState([
-    { id: 1, name: 'victoria secret base vainilla', price: 8, category: 'splash',image:'/vainilla.jpg', description: 'splash con un olor delicioso', rating: 4.9, stock: 15 },
-    { id: 2, name: 'victoria secret', price: 8, category:'splash', image:'/pure.jpg', description: 'splash con un perfume elegante',rating: 4.8, stock: 25 },
-    { id: 3, name: 'victoria secret coco nut passion', price: 8, category: 'splash', image: '/coconut.jpg', description: 'splash olor a coco', rating: 4.7, stock: 30 },
-    { id: 4, name: 'victoria secret cosmic wish', price: 8, category: 'splash', image: '/rorr.jpg', description: 'splash con un olor super riquisimo ', rating: 4.6, stock: 20 },
-    { id: 5, name: 'victoria secret temptation', price: 6, category: 'splash', image: '/ddddw.jpg', description: 'Frescura total con este splash', rating: 4.5, stock: 35 },
-    { id: 6, name: 'victoria secret agua kiss', price: 9, category: 'splash', image: '/agguaa.jpg', description: 'un olor lleno de frescura total', rating: 4.9, stock: 10 },
-    { id: 7, name: 'body cream', price:9, category:'cremas', image: '/cree.jpg', description:'Crema con un olor muy masculino',reating: 4.9,stock:11},
-  ]);
+   const [products] = useState([
+  { id: 1, name: 'victoria secret base vainilla', price: 8, category: 'splash', image: '/vainilla.jpg', description: 'splash con un olor delicioso', rating: 4.9, stock: 15 },
+  { id: 2, name: 'victoria secret', price: 8, category: 'splash', image: '/pure.jpg', description: 'splash con un perfume elegante', rating: 4.8, stock: 25 },
+  { id: 3, name: 'victoria secret coco nut passion', price: 8, category: 'splash', image: '/coconut.jpg', description: 'splash olor a coco', rating: 4.7, stock: 30 },
+  { id: 4, name: 'victoria secret cosmic wish', price: 8, category: 'splash', image: '/rorr.jpg', description: 'splash con un olor super riquisimo', rating: 4.6, stock: 20 },
+  { id: 5, name: 'victoria secret temptation', price: 6, category: 'splash', image: '/ddddw.jpg', description: 'Frescura total con este splash', rating: 4.5, stock: 35 },
+  { id: 6, name: 'victoria secret agua kiss', price: 9, category: 'splash', image: '/agguaa.jpg', description: 'un olor lleno de frescura total', rating: 4.9, stock: 10 },
+  { id: 7, name: 'body cream', price: 9, category: 'cremas', image: '/cree.jpg', description: 'Crema con un olor muy masculino', rating: 4.9, stock: 11 },
+  { id: 8, name: 'body cream bourbon', price: 10, category: 'cremas', image: '/bubur.jpg', description: 'crema con un olor increible', rating: 4.9, stock: 11 },
+  { id: 9, name: 'body cream ocean', price: 8, category: 'cremas', image: '/ocenai.jpg', description: 'crema con un olor a oceano muy rico', rating: 4.9, stock: 11 },
+  { id: 10, name: 'body cream after dark', price: 7, category: 'cremas', image: '/bpdu.jpg', description: 'crema con un olor muy abundante', rating: 4.6, stock: 78 },
+  { id: 11, name: 'body cream noir',price: 12,category: 'cremas', image: '/nunu.jpg',description:'crema con un olor muy masculino', rating : 4.7,stock: 50},
+]);
 
   const [cart, setCart] = useState([]);
   const [isCartOpen, setIsCartOpen] = useState(false);
