@@ -13,7 +13,7 @@ import './ProductCard.css';
   9: '/ocenai.jpg',
   10: '/bpdu.jpg',
   11: '/nunu.jpg',
-  12: 'jiji.jpg', 
+  12: 'jijija.jpg', 
   13: 'ooooks.jpg', 
   14: 'js.jpg', 
 };
