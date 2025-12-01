@@ -22,6 +22,7 @@ function App() {
   { id: 12, name: 'supermabelline',price:13,category:'lispticks', image: '',description:'elige el lipstick de tu preferencia',rating:4.8,stock:49},
   { id: 13, name: 'L oreal paris',price:11,category:'lispticks',image: '', description: 'este color queda perfecto',rating:4.6,stock:48},
   { id: 14, name: 'body cream marble',price:10,category:'cremas',image:'',description:'crema con un olor espectacular',rating:3.8,stock:47},
+
 ]);
 
   const [cart, setCart] = useState([]);
