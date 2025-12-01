@@ -6,6 +6,7 @@ const SearchBar = ({ searchTerm, onSearchChange, selectedCategory, onCategoryCha
     { value: 'all', label: 'Todos los Productos' },
     { value: 'splash', label: ' splash' },
     { value: 'cremas', label: 'cremas' },
+    { value: 'lispticks', label :'lispticks'}
   ];
 
   return (
@@ -24,6 +25,7 @@ const SearchBar = ({ searchTerm, onSearchChange, selectedCategory, onCategoryCha
     <option value="all">Todas los productos</option>
     <option value="splash">Splash </option>
     <option value="cremas">Cremas</option>
+    <option value="lispticks">lisptick</option>
   </select>
 </div>
   );
